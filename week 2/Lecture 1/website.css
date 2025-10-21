@@ -1,0 +1,61 @@
+body {
+    color: #FDBB30; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-color: aqua; */
+    background-color: #002d62;
+    /* text-align: center; */
+    /* text-align: right; */
+    text-align: left; /* default */
+
+}
+
+.highlight {
+    color: purple;
+    background-color: #bec0c2;
+}
+
+#Jersey {
+    font-size: 30px;
+}
+
+#main-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* if you want h2 and h3, just do h2, h3 */
+/* h2 {
+    color: blue;
+} */
+
+h2, h3 {
+    color: #ffffff;
+}
+
+.box {
+    border: 2px solid black;
+    /* changes the smoothnes of corner of the boxes */
+    border-radius: 10px;
+    /* spaces out the inner content from the border */
+    padding: 10px;
+    /* shadow beneath and to the side of the box, 4px is vertical/horizont that's why there is 2, 10px is to blur */
+    box-shadow: 10px 4px 4px red;
+}
+
+.box:hover {
+    background-color:  #bec0c2;
+    box-shadow: 10px 4px blue;
+}
+
+.margin-padding-demo {
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+
+    /* spacing inside */
+    padding: 20px;
+    /* put zero to not affect the box?? */
+    margin: 100px 0;
+}

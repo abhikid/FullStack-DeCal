@@ -1,0 +1,20 @@
+import React from "react";
+import { Routes, Route, Navigate } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/pages/Home/Home";
+import NotHome from "./components/pages/NotHome/NotHome";
+
+function App() {
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Navigate to="/home" />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/nothome" element={<NotHome />} />
+      </Routes>
+    </>
+  );
+}
+
+export default App;
